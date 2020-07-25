@@ -1,12 +1,12 @@
 $(document).ready(function () {
   $("form#contacts").submit(function(event) {
-    
     var names= $("input#name").val();
     var email= $("input#email").val();
     var message = $("input#message").val();
     alert("Dear " +names+ ",email address "+ email+ ",your message has been received. Thank you for contacting us");
-    event.preventDefault(); 
-  
+    document.getElementById("form#contacts").val("");
+    event.preventDefault();
+    
   });
 
   $(function(){
