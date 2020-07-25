@@ -123,3 +123,18 @@ img{
   display: none;
 }
 
+.col-md-3:hover img{
+filter: blur(3px) brightness(60%);
+}
+
+.col-md-3 h2{
+  position: relative;
+  opacity: 0;
+  }
+
+  .col-md-3:hover h2{
+    opacity: 1;
+    }
+
+
+
