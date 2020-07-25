@@ -13,12 +13,12 @@ $(document).ready(function () {
     var ports = ["port1","port2","port3","port4","port5","port6","port7","port8"]
     ports.forEach(function(port){
       $("#"+port).hover(function (){
-        $(this).width(1.25*$(this).width());
-        $(this).height(1.25*$(this).height());
+        $(this).width(1.05*$(this).width());
+        $(this).height(1.05*$(this).height());
       },
       function () {
-        $(this).width(0.8*$(this).width());
-        $(this).height(0.8*$(this).height());
+        $(this).width((100/105)*$(this).width());
+        $(this).height((100/105)*$(this).height());
         event.preventDefault();
       });
       });
