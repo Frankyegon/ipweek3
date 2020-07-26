@@ -7,8 +7,7 @@ The 'What we do'  icons when clicked toggled between the respective description 
  A pop up to confirm users information was received and thank the user for contacting, was achieved.
  
  Website was hosted in Github pages as link shown below:
- link: https://github.com/Frankyegon/ipweek3
-       https://github.com/Frankyegon/franklinyegon.github.io/tree/master/ipweek3
+ link: https://frankyegon.github.io/ipweek3/
        
  AUTHOR
  Franklin Yegon
